@@ -55,7 +55,6 @@
             "pattern": [
                 {
                     "regexp": "^(Not enough arguments for.*) at (.*?) line (\\d+)",
-                    "severity": "error",
                     "message": 1,
                     "code": "not-enough-arguments",
                     "file": 2,
@@ -68,7 +67,6 @@
             "pattern": [
                 {
                     "regexp": "^(Compilation failed in.*) at (.*?) line (\\d+)",
-                    "severity": "error",
                     "message": 1,
                     "code": "compilation-failed",
                     "file": 2,
