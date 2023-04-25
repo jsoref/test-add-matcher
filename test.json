@@ -56,7 +56,6 @@
                 {
                     "regexp": "^(Not enough arguments for.*) at (.*?) line (\\d+)",
                     "message": 1,
-                    "code": "not-enough-arguments",
                     "file": 2,
                     "line": 3
                 }
@@ -68,7 +67,6 @@
                 {
                     "regexp": "^(Compilation failed in.*) at (.*?) line (\\d+)",
                     "message": 1,
-                    "code": "compilation-failed",
                     "file": 2,
                     "line": 3
                 }
