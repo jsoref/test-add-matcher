@@ -52,6 +52,7 @@
         },
         {
             "owner": "check-spelling-perl-not-enough-arguments",
+            "severity": "notice",
             "pattern": [
                 {
                     "regexp": "^(Not enough arguments for.* at (.*?) line (\\d+))",
@@ -63,6 +64,7 @@
         },
         {
             "owner": "check-spelling-perl-compilation-failed",
+            "severity": "notice",
             "pattern": [
                 {
                     "regexp": "^(Compilation failed in.* at (.*?) line (\\d+))",
