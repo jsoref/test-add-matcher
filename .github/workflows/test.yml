@@ -16,4 +16,4 @@ jobs:
       shell: bash
       run: |
         echo "::add-matcher::$(pwd)/test.json"
-        perl -e 'eval { sub foo($$) {return 1; }; foo(); }'
+        echo "https://something#:1:2 ... 3,Notice - stuff (more-stuff)"
